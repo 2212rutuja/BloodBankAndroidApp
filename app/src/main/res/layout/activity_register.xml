@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".register">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+
+        android:drawablePadding="20dp"
+        android:hint="full name"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+
+        android:drawablePadding="20dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+<!--
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/password1"
+        android:layout_centerHorizontal="true"
+        android:background="#30ffffff"
+        android:ems="10"
+        android:hint="emailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />-->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password1"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+
+        android:drawablePadding="20dp"
+
+        android:hint="blood group"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@+id/inputBloodGroup"
+        android:background="#30ffffff"
+        android:hint="gender"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+
+        android:drawablePadding="20dp"
+
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputMobile"
+        android:layout_below="@+id/gender"
+        android:background="#30ffffff"
+        android:inputType="phone"
+        android:hint="mobile number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+
+        android:drawablePadding="20dp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="registerbtnclick"
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputMobile"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/material_dynamic_neutral40"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+<!--
+    <com.google.android.material.button.MaterialButton
+        android:onClick="loginbuttonclick"
+        android:id="@+id/loginbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerbtn"
+        android:text="Continue to LOGIN"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+-->
+
+</RelativeLayout>

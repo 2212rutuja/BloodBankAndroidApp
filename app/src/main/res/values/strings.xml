@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Blood bank</string>
+    <string name="displayName" />
+    <string name="mobile" />
+    <string name="userAddress" />
+    <string name="prompt_password" />
+    <string name="prompt_email" />
+    <string name="prompt_confirm_password" />
+    <string name="signup" />
+    <string name="welcome">Welcome!</string>
+    <string name="appwidget_text" />
+    <string name="title_activity_nearbybanks">nearbybanks</string>
+</resources>

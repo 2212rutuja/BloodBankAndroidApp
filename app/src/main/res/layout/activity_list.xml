@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    tools:context=".list">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="402dp"
+        android:layout_height="56dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="40dp"
+        android:background="#F44336"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/showdonor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="List"
+        app:titleMarginStart="180dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/showdonor"
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="1dp"
+        android:text="Show Donor list"
+        app:layout_constraintBottom_toTopOf="@+id/showrecr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/showrecr"
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="20dp"
+        android:text="Show Receiver list"
+        app:layout_constraintBottom_toTopOf="@+id/showdisqualified"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showdonor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/showdisqualified"
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="290dp"
+        android:text="Show Disqualified donor list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showrecr" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

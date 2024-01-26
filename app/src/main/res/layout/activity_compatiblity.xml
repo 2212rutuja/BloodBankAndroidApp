@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".compatibility">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="4dp"
+        android:background="#F44336"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Compatiblity Chart"
+        app:titleMarginStart="130dp"
+         />
+
+    <ImageView
+        android:id="@+id/chart"
+        android:layout_width="407dp"
+        android:layout_height="679dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/compatiblity_chart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

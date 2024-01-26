@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestInfoVerify">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="#F44336"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/recr_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Request info"
+        app:titleMarginStart="150dp" />
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:layout_marginTop="50dp">  -->
+
+    <TextView
+        android:id="@+id/recr_name"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="21dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bloodunit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/full_name"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="73dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="66dp"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/blood_bagcount"
+        app:layout_constraintEnd_toStartOf="@+id/recr_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/bloodgrup"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="1dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/reject_reqbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blood_g"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_var" />
+
+    <TextView
+        android:id="@+id/blood_bagcount"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="68dp"
+        android:text="Blood unit"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/addr"
+        app:layout_constraintEnd_toStartOf="@+id/address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/full_name" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/mobile_var"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addr"
+        app:layout_constraintTop_toBottomOf="@+id/bloodunit" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="60dp"
+        android:text="Address"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/mobile"
+        app:layout_constraintEnd_toStartOf="@+id/address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blood_bagcount" />
+
+    <TextView
+        android:id="@+id/mobile_var"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="1dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bloodgrup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mobile"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="69dp"
+        android:text="Mobile No."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/blood_g"
+        app:layout_constraintEnd_toStartOf="@+id/mobile_var"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addr" />
+
+    <TextView
+        android:id="@+id/bloodunit"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="19dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blood_bagcount"
+        app:layout_constraintTop_toBottomOf="@+id/recr_name" />
+
+    <TextView
+        android:id="@+id/blood_g"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        android:text="Blood group"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/accept_reqbutton"
+        app:layout_constraintEnd_toStartOf="@+id/bloodgrup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile" />
+
+    <Button
+        android:id="@+id/accept_reqbutton"
+        android:onClick="acceptclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="152dp"
+        android:text="Accept"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bloodgrup" />
+
+    <Button
+        android:id="@+id/reject_reqbutton"
+        android:onClick="rejectclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="152dp"
+        android:text="Reject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/accept_reqbutton"
+        app:layout_constraintTop_toBottomOf="@+id/bloodgrup" />
+<!--
+</androidx.cardview.widget.CardView>
+
+    </LinearLayout>  -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
