@@ -2,6 +2,13 @@
 
 A comprehensive Blood Bank Management System integrated with Android App helps to efficiently manage blood inventory, donor information, and facilitate seamless communication between donors and recipients.
 
+## User Functionality.
+
+[![Screenshot 1](screenshots/User_signin.jpg)](screenshots/User_signin.jpg)
+[![Screenshot 2](screenshots/User_dashboard.jpg)](screenshots/User_dashboard.jpg)
+[![Screenshot 3](screenshots/User_bloodrequest.jpg)](screenshots/User_bloodrequest.jpg)
+[![Screenshot 4](screenshots/Donation_history.jpg)](screenshots/Donation_history.jpg)
+
 ## Features
 
 - **Real-time Inventory Management:** Utilizes a custom tray with NodeMCU, load cells, and HX711 for accurate blood bag counting by weight, ensuring real-time inventory tracking.
