@@ -4,12 +4,18 @@ A comprehensive Blood Bank Management System integrated with Android App helps t
 
 ## User Functionality.
 
-
-
 <a href="screenshots/User_signin.jpeg"><img src="screenshots/User_signin.jpeg" alt="Screenshot 1" width="200" height="250"></a>
 <a href="screenshots/User_dashboard.jpeg"><img src="screenshots/User_dashboard.jpeg" alt="Screenshot 2" width="200" height="250"></a>
 <a href="screenshots/User_bloodrequest.jpeg"><img src="screenshots/User_bloodrequest.jpeg" alt="Screenshot 3" width="200" height="250"></a>
 <a href="screenshots/Donation_history.jpeg"><img src="screenshots/Donation_history.jpeg" alt="Screenshot 4" width="200" height="250">
+<a href="screenshots/Donar_create_update.jpeg"><img src="screenshots/Donar_create_update.jpeg" alt="Screenshot 5" width="200" height="250">
+<a href="screenshots/Compatiblity.jpeg"><img src="screenshots/Compatiblity.jpeg" alt="Screenshot 5" width="200" height="250">
+
+## Admin Functionality
+<a href="screenshots/Admin_signin.jpeg"><img src="screenshots/Admin_signin.jpeg" alt="Screenshot 1" width="200" height="250"></a>
+<a href="screenshots/Admin_dashboard.jpeg"><img src="screenshots/Admin_dashboard.jpeg" alt="Screenshot 2" width="200" height="250"></a>
+<a href="screenshots/Avaliable_bloogbag_counts.jpeg"><img src="screenshots/Avaliable_bloogbag_counts.jpeg" alt="Screenshot 3" width="200" height="250"></a>
+<a href="screenshots/Request_status.jpeg"><img src="screenshots/Request_status.jpeg" alt="Screenshot 3" width="200" height="250"></a>
 
 ## Features
 
