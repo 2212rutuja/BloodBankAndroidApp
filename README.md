@@ -4,10 +4,10 @@ A comprehensive Blood Bank Management System integrated with Android App helps t
 
 ## User Functionality.
 
-[![Screenshot 1](screenshots/User_signin.jpg)](screenshots/User_signin.jpg)
-[![Screenshot 2](screenshots/User_dashboard.jpg)](screenshots/User_dashboard.jpg)
-[![Screenshot 3](screenshots/User_bloodrequest.jpg)](screenshots/User_bloodrequest.jpg)
-[![Screenshot 4](screenshots/Donation_history.jpg)](screenshots/Donation_history.jpg)
+[![Screenshot 1](screenshots/User_signin.jpeg)](screenshots/User_signin.jpeg)
+[![Screenshot 2](screenshots/User_dashboard.jpeg)](screenshots/User_dashboard.jpeg)
+[![Screenshot 3](screenshots/User_bloodrequest.jpeg)](screenshots/User_bloodrequest.jpeg)
+[![Screenshot 4](screenshots/Donation_history.jpeg)](screenshots/Donation_history.jpeg)
 
 ## Features
 
