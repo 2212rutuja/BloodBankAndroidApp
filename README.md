@@ -37,6 +37,6 @@ git clone https://github.com/2212rutuja/BloodBankAndroidApp.git
 
 
 ## Contributing
-We welcome contributions! If you'd like to contribute, please follow our contribution guidelines.
+Contributions ane welcomed! If you'd like to contribute, please follow our contribution guidelines.
 
 
