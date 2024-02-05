@@ -42,7 +42,7 @@ A comprehensive Blood Bank Management System integrated with Android App helps t
 ## Getting Started
 
 To run this project 
-git clone https://github.com/2212rutuja/BloodBankAndroidApp.git
+git clone https://github.com/<username>/BloodBankAndroidApp.git
 
 ## Usage
 - The administration of blood banks includes maintaining records of the blood that is available as well as data about donors and patients who require blood.
